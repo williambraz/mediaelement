@@ -1958,7 +1958,37 @@ window.MediaElement = mejs.MediaElement;
     }
 
 }(mejs.i18n.locale.strings));
+/*!
+ * This is a i18n.locale language object.
+ *
+ * Traditional portuguese translation by William Alex Braz
+ *
+ * @author
+ *   William Alex Braz (williambraz@gmail.com)
+ *
+ * @see
+ *   me-i18n.js
+ *
+ * @params
+ *  - exports - CommonJS, window ..
+ */
+;(function(exports, undefined) {
 
+    "use strict";
+
+    if (typeof exports.pt === 'undefined') {
+        exports.pt = {
+            "Fullscreen" : "Tela cheia",
+            "Go Fullscreen" : "Selecionar tela cheia",
+            "Turn off Fullscreen" : "Fechar tela cheia",
+            "Mute Toggle" : "Volume",
+            "Captions/Subtitles" : "Legendas",
+            "None": "Nenhum",
+            "Close" : "Fechar"
+        };
+    }
+
+}(mejs.i18n.locale.strings));
 
 /*!
  * MediaElementPlayer
